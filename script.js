@@ -1,0 +1,1 @@
+// JavaScript com carrinho, tradução PT/EN, cookies e simulação de pagamento
