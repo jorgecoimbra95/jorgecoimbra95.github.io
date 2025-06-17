@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>Explosão de Sabor</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Explosão de Sabor</h1>
+    <button id="lang-toggle">🇵🇹 / 🇬🇧</button>
+  </header>
+  <main>
+    <section id="produtos">
+      <h2>Produtos</h2>
+      <div class="grid">
+        <div class="produto"><img src="produto1.jpg"><p>Biscoitos Coloridos</p><button>Adicionar</button></div>
+        <div class="produto"><img src="produto2.jpg"><p>Pingos de Amendoim</p><button>Adicionar</button></div>
+        <div class="produto"><img src="produto3.jpg"><p>Chocolates Gourmet</p><button>Adicionar</button></div>
+      </div>
+    </section>
+    <section id="contato">
+      <h2>Fale Conosco</h2>
+      <form action="https://formspree.io/f/meqywqjg" method="POST">
+        <input type="text" name="nome" placeholder="Nome" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <textarea name="mensagem" placeholder="Mensagem" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>© 2025 Explosão de Sabor</p>
+  </footer>
+  <div id="cookie-banner">
+    Este site utiliza cookies. <button onclick="aceitarCookies()">Aceitar</button>
+  </div>
+</body>
+</html>

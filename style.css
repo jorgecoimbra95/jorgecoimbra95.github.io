@@ -1,0 +1,55 @@
+
+body {
+  background-color: #0a2f57;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding-bottom: 3rem;
+}
+header {
+  background: #ffcc00;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.grid {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  padding: 1rem;
+}
+.produto {
+  background: #2e1e0f;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+}
+.produto img {
+  width: 100px;
+  border-radius: 8px;
+}
+button {
+  background: #e57c04;
+  border: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
+#cookie-banner {
+  background: #fff;
+  color: #000;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+  display: none;
+}
+footer {
+  background: #2e1e0f;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
